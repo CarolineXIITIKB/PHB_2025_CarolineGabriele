@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIK - SMAK St. Stanislaus & Informatika UKWMS</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* --- Style Dasar --- */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: linear-gradient(135deg, #b3e5fc, #a5d6a7);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      width: 85%;
+      max-width: 950px;
+      background: linear-gradient(to bottom right, #c8e6c9, #b3e5fc);
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      padding: 30px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(15px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --- Judul --- */
+    .title {
+      font-weight: 800;
+      font-size: 25px;
+      color: #003366;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-weight: 650;
+      color: #004d40;
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    /* --- Logo Section --- */
+    .logo-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+
+    .logo-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-box img {
+      width: 160px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .center-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .subject {
+      font-size: 30px;
+      font-weight: bold;
+      color: #1b5e20;
+      margin: 20px 0;
+    }
+
+    /* --- IG Section --- */
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .social img {
+      width: 22px;
+      height: 22px;
+    }
+
+    /* --- Footer --- */
+    footer {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    footer b {
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="title">SMAK St. Stanislaus</div>
+    <div class="subtitle">& <br> Informatika UKWMS</div>
+
+    <div class="logo-section">
+      <!-- Logo + IG kiri -->
+      <div class="logo-box">
+        <img src="LOGO/LOGO INFOR UKWMS.png" alt="Logo Informatika UKWMS">
+        <div class="social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+          smak_santo_stanislaus
+        </div>
+      </div>
+
+      <!-- Teks Tengah -->
+      <div class="center-text">
+        <div class="subject">TIK</div>
+      </div>
+
+      <!-- Logo + IG kanan -->
+      <div class="logo-box">
+        <img src="LOGO/smaksantostanislaus.png" alt="Logo SMAK St. Stanislaus">
+        <div class="social">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+          informatika.ukwms
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © copyright <b>Caroline_Gabriele</b>
+    </footer>
+  </div>
+</body>
+</html>
